@@ -1,8 +1,8 @@
 package com.example.hgeo.address.service.impl;
 
-import kr.co.roda.address.dto.request.AddressRequest;
-import kr.co.roda.address.dto.request.kakao.KakaoAddressRequest;
-import kr.co.roda.address.vo.Address;
+import com.example.hgeo.address.dto.request.AddressRequest;
+import com.example.hgeo.address.dto.request.kakao.KakaoAddressRequest;
+import com.example.hgeo.address.vo.Address;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +13,9 @@ import reactor.test.StepVerifier;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 
 @SpringBootTest

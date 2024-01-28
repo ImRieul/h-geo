@@ -25,7 +25,7 @@ public class SgisAddressService implements AddressService {
 
     private final JsonParser jsonParser;
 
-    private final SgisTokenService sgisTokenService;
+//    private final SgisTokenService sgisTokenService;
 
     @Override
     public Mono<Address> findByAddressName(AddressRequest addressRequest) {

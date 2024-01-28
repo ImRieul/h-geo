@@ -1,6 +1,6 @@
 package com.example.hgeo.token.service.impl;
 
-import kr.co.roda.token.vo.Token;
+import com.example.hgeo.token.vo.Token;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

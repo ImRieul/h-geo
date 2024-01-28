@@ -30,7 +30,7 @@ public class KakaoAddressService implements AddressService {
     public KakaoAddressService(WebClient.Builder webClient, JsonParser jsonParser) {
         this.webClient = webClient
                 .baseUrl(KAKAO.getUri())
-                .defaultHeader(AUTHORIZATION, "NEED_KAKAO_KEY")
+                .defaultHeader(AUTHORIZATION, "KakaoAK a0c311321bde6c2065182411ac028caa")
                 .filter(ExchangeFilterFunction.ofRequestProcessor(clientRequest -> {
                     System.out.println("Request: " + clientRequest.method() + " " + clientRequest.url());
                     clientRequest.headers().forEach((name, values) -> values.forEach(value -> System.out.println(name + ":" + value)));
